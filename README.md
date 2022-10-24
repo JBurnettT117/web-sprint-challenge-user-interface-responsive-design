@@ -69,7 +69,7 @@ You **must** use the Google Chrome developer tools during your HTML/CSS implemen
 ​
 Review the provided design file for the home page.
 ​
-* [ ] Build the HTML and CSS to create the missing header and footer sections.
+* [X] Build the HTML and CSS to create the missing header and footer sections.
 * [X] Link the h1 page title to the [index.html](index.html) page.
 * [X] Link the `Menu` navigation item to the [menu.html](menu.html) page.
 * [X] Create social media buttons on header for Facebook, Twitter, and Instagram with icons from [FontAwesome](https://fontawesome.com/search). *NOTE: * ENSURE that the icon name includes "facebook", "twitter", or "instagram" respectively.

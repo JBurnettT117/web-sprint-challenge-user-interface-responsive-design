@@ -49,13 +49,13 @@ table {
 
 * {
     box-sizing: border-box;
-    color: white;
+    color: rgb(225, 239, 230);
 }
 
 html {
     max-width: 1920px;
     min-width: 428px;
-    width: 100%;
+    
     font-size: 62.5%;
 }
 
@@ -102,16 +102,32 @@ header {
     background-color: rgb(0, 4, 17, .8);
     width: 100%;
     height: 310px;
+    justify-content: center;
 }
 
-i {
-    height: 300px;
-    width: 300px;
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-.social {
+
+.nav {
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
-    width: 30vw;
+    padding-bottom: 40px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+}
+
+img {
+    width: 25vw;
+    padding: 20px;
 }
 
 /* spacers */
@@ -132,6 +148,11 @@ i {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    padding-top:50px;
+}
+
+.text {
+    font-size: 7rem;
 }
 
 /* about us section */
@@ -152,6 +173,7 @@ i {
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 4, 17, .8);
+    /* padding-top: 90px; */
 }
 
 .about h2 {
@@ -212,9 +234,48 @@ i {
 /* footer section */
 footer {
     width: 100%;
-    height: 15vh;
-    padding-top: 2.5vh;
+    height: 20vh;
     font-size: 3rem;
+    background-color: rgb(0, 4, 17);
+  
+    flex-wrap: wrap;
+}
+
+.end {
+   width: 100%;
+   display: flex;
+   height: 150px;
+}
+
+.email {
+width: 600px;
+}
+
+button {
+    color: black;
+    font-size: xx-large;
+}
+
+.email {
+    width: 35vw;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    padding-left: 10px;
+}
+
+nav.ftr {
+    width:65vw;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 2.5rem;
+    justify-content: flex-end;
+    display:flex;
 }
 
 /* mobile media query */
