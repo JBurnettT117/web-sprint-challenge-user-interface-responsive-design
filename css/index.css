@@ -55,7 +55,7 @@ table {
 html {
     max-width: 1920px;
     min-width: 428px;
-    width: 100vw;
+    /* max-width: 100%; */
     font-size: 62.5%;
 }
 
@@ -125,7 +125,7 @@ nav {
     width: 20vw;
 }
 
-img {
+.gallery img {
     width: 25vw;
     padding: 20px;
 }
@@ -316,7 +316,7 @@ nav.ftr {
         height: auto;
     }
 
-    img {
+    .gallery img {
         width: auto;
         padding: 0;
         padding-top: 30px;
