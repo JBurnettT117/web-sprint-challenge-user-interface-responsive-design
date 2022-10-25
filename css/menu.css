@@ -265,15 +265,129 @@ nav.ftr {
         font-size: 4rem;
     }
 
+    h1 {
+        font-size: 5.5rem;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .transbox {
+        height:auto;
+        justify-content: center;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .social {
+        width: 30vw;
+    }
+
     /* menu */
     .menu {
         background-image: none;
     }
 
-    /* footer section */
-    footer {
+    .menu-container {
+        background-color: rgb(225, 239, 230);
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
         height: auto;
+    }
+
+    .menu-section {
+        width: 60vw;
+    }
+
+    .menu-item {
+        flex-direction: column;
+        border-bottom: solid 3px;
+        border-color: rgb(0, 4, 17);
+        align-items: center;
+        padding-bottom: 15px;
+    }
+
+    h2, h3, h4, p{
+        color: rgb(0, 4, 17);
+        font-weight: 600;
+    }
+
+    h2 {
+        border-bottom: solid 20px;
+        border-color: rgb(0, 4, 17);
+        margin-bottom: 40px;
+    }
+
+    h3 {
+        font-size: 4rem;
+        border: solid 5px;
+        border-color: rgb(0, 4, 17);
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 3.6rem;
+    }
+
+    p {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .price {
+        align-self: center;
+    }
+
+    .title {
+        padding-top: 15px;
+    }
+
+    /* footer section */
+    
+    footer {
+        height: 450px;
         padding-top: 2.5vh;
         font-size: 2rem;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .email {
+        flex-direction: column;
+        width: 90vw;
+        font-size: 3.0rem;
+        align-items: center;
+        padding-left: 2.5vw;
+    }
+
+    .input {
+        width: 400px;
+    }
+
+    button {
+        width: 400px;
+    }
+
+    .copyright {
+        align-self: flex-end;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .end {
+        flex-direction: column;
+        display: flex;
+        height: 350px;
+    }
+
+    nav.ftr {
+        width: 100vw;
+        flex-direction: column;
+        padding-top: 40px;
     }
 }
